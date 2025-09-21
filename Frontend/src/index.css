@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white dark:bg-slate-900 text-slate-900 dark:text-white transition-colors duration-300;
+  }
+  
+  /* Ensure proper contrast for all text elements */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-slate-900 dark:text-white;
+  }
+  
+  p {
+    @apply text-slate-700 dark:text-slate-300;
+  }
+  
+  /* Form elements */
+  input, textarea, select {
+    @apply bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-900 dark:text-white;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    @apply text-slate-500 dark:text-slate-400;
+  }
+  
+  /* Buttons */
+  button {
+    @apply transition-colors duration-200;
+  }
+  
+  /* Links */
+  a {
+    @apply transition-colors duration-200;
+  }
+  
+  /* Scrollbar styling for dark mode */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100 dark:bg-slate-800;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 dark:bg-slate-600 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-400 dark:bg-slate-500;
+  }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Ensure proper backdrop blur support */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Dark mode specific fixes */
+.dark {
+  color-scheme: dark;
+}
+
+/* Z-index hierarchy for proper layering */
+.z-navbar { z-index: 40; }
+.z-dropdown { z-index: 50; }
+.z-modal { z-index: 60; }
+.z-modal-fullscreen { z-index: 70; }
+.z-tooltip { z-index: 80; }
+
+/* Ensure dropdowns and modals have proper backgrounds */
+.dark .bg-white {
+  @apply bg-slate-800;
+}
+
+.dark .border-slate-200 {
+  @apply border-slate-700;
+}
+
+.dark .text-slate-900 {
+  @apply text-white;
+}
+
+.dark .text-slate-700 {
+  @apply text-slate-300;
+}
+
+.dark .text-slate-600 {
+  @apply text-slate-400;
+}
+
+.dark .text-slate-500 {
+  @apply text-slate-400;
+}
