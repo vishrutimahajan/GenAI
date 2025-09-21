@@ -1,0 +1,18 @@
+# Ignore all node_modules
+node_modules/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore environment files
+.env
+.venv
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+firebase.py
