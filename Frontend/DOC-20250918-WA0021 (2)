@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "D001",
+    "name": "Aadhaar Card",
+    "category": "Identity Proof",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Proof of Identity (Birth Certificate/School Certificate/Passport)",
+      "Proof of Address (Electricity Bill/Bank Statement/Rental Agreement)",
+      "Date of Birth Proof",
+      "Recent Photograph",
+      "Mobile number for OTP verification"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit UIDAI official website",
+        "Book appointment (if required) or locate enrollment center",
+        "Fill application / provide details",
+        "Upload documents (where applicable)",
+        "Visit enrollment center for biometric capture"
+      ],
+      "links": [
+        "https://uidai.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit nearest Aadhaar enrollment center",
+        "Fill enrollment form",
+        "Submit documentary proof for verification",
+        "Biometric capture (fingerprints, iris, photo)",
+        "Receive acknowledgment slip"
+      ],
+      "locations": [
+        "Post Offices",
+        "Banks",
+        "CSC Centers",
+        "State UIDAI Centers"
+      ]
+    },
+    "estimatedTime": "7-30 days (varies)",
+    "fees": "Free for first enrollment; nominal fee for some services"
+  },
+  {
+    "id": "D002",
+    "name": "PAN Card (Permanent Account Number)",
+    "category": "Tax Documents",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Form 49A (or 49AA for foreign applicants)",
+      "Proof of Identity",
+      "Proof of Address",
+      "Proof of Date of Birth",
+      "Passport-size photograph"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit NSDL/UTIITSL PAN portals",
+        "Fill Form 49A online",
+        "Upload scanned documents",
+        "Pay processing fees",
+        "Submit application and track status"
+      ],
+      "links": [
+        "https://www.onlineservices.nsdl.com",
+        "https://www.utiitsl.com"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Download/collect Form 49A",
+        "Fill form manually",
+        "Attach required documents",
+        "Submit at PAN facilitation center or authorized center",
+        "Pay fees and collect acknowledgment"
+      ],
+      "locations": [
+        "PAN Service Centers",
+        "Post Offices",
+        "Banks"
+      ]
+    },
+    "estimatedTime": "15-20 days",
+    "fees": "₹110 (online approx.), ₹114 (offline approx.)"
+  },
+  {
+    "id": "D003",
+    "name": "Passport (Ordinary)",
+    "category": "Travel Documents",
+    "state": "All States",
+    "complexity": "hard",
+    "requirements": [
+      "Online application on Passport Seva portal",
+      "Proof of present and permanent address",
+      "Date of birth proof",
+      "Passport-size photographs",
+      "Documents for police verification (if required)",
+      "Fee payment receipt"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Register/login to Passport Seva website",
+        "Fill online application form",
+        "Pay fees online",
+        "Book appointment at PSK/POPSK",
+        "Visit Passport Seva Kendra with original documents"
+      ],
+      "links": [
+        "https://passportindia.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Download and fill application form",
+        "Visit Passport Seva Kendra or POPSK",
+        "Submit documents and biometrics",
+        "Attend police verification as required",
+        "Receive passport via post"
+      ],
+      "locations": [
+        "Passport Seva Kendras",
+        "Post Office Passport Seva Kendras"
+      ]
+    },
+    "estimatedTime": "15-60 days (depends on police verification)",
+    "fees": "Varies by booklet size and service (e.g., ₹1,500 for 36 pages)"
+  },
+  {
+    "id": "D004",
+    "name": "Voter ID / Electoral Photo Identity Card (EPIC)",
+    "category": "Identity Proof",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Proof of age (18+ years)",
+      "Proof of residence",
+      "Passport-size photograph",
+      "Identity proof (any)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit National Voters Service Portal (NVSP)",
+        "Fill Form 6 for new registration online",
+        "Upload documents and photograph",
+        "Submit and track application"
+      ],
+      "links": [
+        "https://www.nvsp.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Obtain Form 6 from BLO or Electoral Office",
+        "Fill form and attach required documents",
+        "Submit to Booth Level Officer (BLO) or ERO",
+        "Verification and inclusion in voter list"
+      ],
+      "locations": [
+        "Electoral Registration Offices",
+        "Tehsil Offices"
+      ]
+    },
+    "estimatedTime": "30-90 days (varies by verification)",
+    "fees": "Free"
+  },
+  {
+    "id": "D005",
+    "name": "Driving License (DL)",
+    "category": "Vehicle & Transport",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Learner's License",
+      "Form 4 (Application for Driving License)",
+      "Age proof",
+      "Address proof",
+      "Medical certificate (Form 1A if required)",
+      "Passport size photographs",
+      "Driving test clearance"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit Parivahan Sewa / State RTO portal",
+        "Fill DL application online",
+        "Upload documents",
+        "Book slot for driving test",
+        "Pay fees online"
+      ],
+      "links": [
+        "https://parivahan.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit regional RTO office",
+        "Fill Form 4 manually",
+        "Submit documents and learner's license",
+        "Appear for driving test",
+        "Collect license upon passing"
+      ],
+      "locations": [
+        "RTO Offices",
+        "Driving Test Centers"
+      ]
+    },
+    "estimatedTime": "15-45 days",
+    "fees": "₹200 – ₹500 (varies by state and service)"
+  },
+  {
+    "id": "D006",
+    "name": "Birth Certificate",
+    "category": "Civil Registration",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Hospital-issued birth slip / notification",
+      "Parents' identity proof",
+      "Address proof of parents/guardian"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state municipal / CRS portal",
+        "Apply for birth registration within prescribed period",
+        "Upload hospital slip and parental documents",
+        "Track and download certificate"
+      ],
+      "links": [
+        "https://crsorgi.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit municipal corporation / Gram Panchayat office",
+        "Submit hospital birth slip and application",
+        "Verification and registration",
+        "Collect birth certificate"
+      ],
+      "locations": [
+        "Municipal Corporations",
+        "Gram Panchayats"
+      ]
+    },
+    "estimatedTime": "7-30 days",
+    "fees": "Usually nominal or free (state dependent)"
+  },
+  {
+    "id": "D007",
+    "name": "Death Certificate",
+    "category": "Civil Registration",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Medical / Hospital death summary",
+      "Identity proof of deceased (if available)",
+      "Informant details and address proof"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state municipal / CRS portal",
+        "Fill death registration form and upload medical certificate",
+        "Submit and track application"
+      ],
+      "links": [
+        "https://crsorgi.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit municipal corporation / Gram Panchayat office",
+        "Submit medical certificate and informant details",
+        "Verification and registration",
+        "Collect death certificate"
+      ],
+      "locations": [
+        "Municipal Corporations",
+        "Gram Panchayats"
+      ]
+    },
+    "estimatedTime": "7-30 days",
+    "fees": "Usually nominal or free"
+  },
+  {
+    "id": "D008",
+    "name": "Marriage Certificate",
+    "category": "Civil Registration",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Marriage registration application (Form varies by act)",
+      "Proof of marriage (wedding invitation / affidavit)",
+      "Proof of age and identity of both parties",
+      "Witnesses' identity proofs",
+      "Residence proof (for bride/groom)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state marriage registration portal or municipal website",
+        "Fill marriage registration form",
+        "Upload documents and witness details",
+        "Pay fees and schedule appointment (if needed)",
+        "Collect marriage certificate post verification"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit municipal corporation / sub-registrar office",
+        "Submit application with required documents and witnesses",
+        "Verification and registration under relevant Marriage Act",
+        "Collect certificate"
+      ],
+      "locations": [
+        "Municipal/Sub-Registrar Offices"
+      ]
+    },
+    "estimatedTime": "15-60 days (varies by state and verification)",
+    "fees": "Varies by state (often nominal)"
+  },
+  {
+    "id": "D009",
+    "name": "Ration Card (Public Distribution System)",
+    "category": "Welfare",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Proof of residence",
+      "Identity proof of head of family",
+      "Family details (Aadhaar recommended)",
+      "Income proof (for BPL/APL categorization in some states)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state PDS / food & civil supplies portal (or NFSA portal)",
+        "Fill online ration card application form",
+        "Upload supporting documents and family Aadhaar (if required)",
+        "Submit and track application"
+      ],
+      "links": [
+        "https://nfsa.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Collect and fill ration card application form at local office / CSC",
+        "Attach required documents and family photos",
+        "Submit for verification",
+        "Receive ration card"
+      ],
+      "locations": [
+        "Ration Office",
+        "Taluka Office",
+        "CSC Centers"
+      ]
+    },
+    "estimatedTime": "15-60 days (state dependent)",
+    "fees": "Nominal (varies by state)",
+    "variations": {
+      "Maharashtra": {
+        "links": [
+          "https://mahafood.gov.in"
+        ],
+        "estimatedTime": "30 days",
+        "fees": "₹50 (application)"
+      },
+      "Delhi": {
+        "links": [
+          "https://edistrict.delhigovt.nic.in"
+        ],
+        "estimatedTime": "20-45 days",
+        "fees": "Often free for eligible households"
+      },
+      "Uttar Pradesh": {
+        "links": [
+          "https://fcs.up.gov.in"
+        ],
+        "estimatedTime": "30-60 days",
+        "fees": "Nominal"
+      }
+    }
+  },
+  {
+    "id": "D010",
+    "name": "Income Certificate",
+    "category": "Income Proof",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Application form (state e-district or Tehsildar)",
+      "Proof of income (salary slips / ITR / employer letter)",
+      "Identity proof",
+      "Residence proof"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state e-district portal or revenue department site",
+        "Fill income certificate application",
+        "Upload supporting documents and pay fee (if any)",
+        "Submit and track"
+      ],
+      "links": [
+        "https://edistrict.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Collect application form from Tehsildar / SDM office",
+        "Fill and attach proofs",
+        "Submit for verification",
+        "Collect income certificate"
+      ],
+      "locations": [
+        "Tehsildar Office",
+        "SDM Office",
+        "E-District Centres"
+      ]
+    },
+    "estimatedTime": "7-30 days",
+    "fees": "₹20 – ₹100 (varies)",
+    "variations": {
+      "Karnataka": {
+        "links": [
+          "https://sevasindhanna.karnataka.gov.in"
+        ],
+        "estimatedTime": "7-15 days"
+      },
+      "Rajasthan": {
+        "links": [
+          "https://edistrict.raj.nic.in"
+        ],
+        "estimatedTime": "15-30 days"
+      }
+    }
+  },
+  {
+    "id": "D011",
+    "name": "Caste Certificate / Community Certificate",
+    "category": "Legal & Welfare",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Proof of caste (ancillary documents like school records / parent certificates)",
+      "Proof of residence",
+      "Identity proof",
+      "Affidavit (in some states)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state e-district / revenue portal",
+        "Fill caste certificate application",
+        "Upload supporting documents",
+        "Submit and track status"
+      ],
+      "links": [
+        "https://edistrict.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit Tehsildar / Deputy Collector office",
+        "Submit application with supporting documents",
+        "Verification by revenue officers",
+        "Collect certificate"
+      ],
+      "locations": [
+        "Tehsil Office",
+        "District Collector Office"
+      ]
+    },
+    "estimatedTime": "15-60 days",
+    "fees": "₹20 – ₹200 (varies)",
+    "variations": {
+      "Maharashtra": {
+        "links": [
+          "https://aaplesarkar.mahaonline.gov.in"
+        ],
+        "requirements_additional": [
+          "Family tree / community records sometimes required"
+        ]
+      },
+      "Tamil Nadu": {
+        "links": [
+          "https://www.tnesevai.tn.gov.in"
+        ],
+        "estimatedTime": "7-21 days"
+      }
+    }
+  },
+  {
+    "id": "D012",
+    "name": "Domicile Certificate",
+    "category": "Legal & Welfare",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Proof of residence for specified period (rental agreement / utility bills)",
+      "Identity proof",
+      "Birth certificate (if applicable)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state e-district or revenue website",
+        "Fill domicile certificate application",
+        "Upload proofs and pay fee (if applicable)",
+        "Submit and track"
+      ],
+      "links": [
+        "https://edistrict.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Apply at Tehsildar / District Magistrate office",
+        "Submit supporting documents",
+        "Verification and issuance"
+      ],
+      "locations": [
+        "Tehsildar Office",
+        "District Collector Office"
+      ]
+    },
+    "estimatedTime": "7-30 days",
+    "fees": "Nominal",
+    "variations": {
+      "Delhi": {
+        "links": [
+          "https://edistrict.delhigovt.nic.in"
+        ],
+        "requirements_additional": [
+          "Proof of residence for 3 years may be required"
+        ]
+      },
+      "Uttar Pradesh": {
+        "links": [
+          "https://edistrict.up.gov.in"
+        ],
+        "estimatedTime": "15-30 days"
+      }
+    }
+  },
+  {
+    "id": "D013",
+    "name": "Educational Certificates (10th/12th/Degree Marksheet)",
+    "category": "Educational Certificates",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Original mark sheet / provisional certificate",
+      "Identity proof",
+      "Application form for duplicate / verification"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit respective board / university portal",
+        "Fill application for duplicate or verification",
+        "Upload ID proof and required documents",
+        "Pay fees and track status"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit school / college / university office",
+        "Submit application with documents",
+        "Pay fees and collect duplicate / verified certificate"
+      ],
+      "locations": [
+        "School",
+        "College",
+        "University Offices"
+      ]
+    },
+    "estimatedTime": "15-60 days",
+    "fees": "₹200 – ₹1000 (varies)"
+  },
+  {
+    "id": "D014",
+    "name": "Property Registration (Sale Deed)",
+    "category": "Property & Land",
+    "state": "All States",
+    "complexity": "hard",
+    "requirements": [
+      "Sale deed / agreement to sell",
+      "Title documents of seller",
+      "Identity & address proofs of buyer and seller",
+      "Stamp duty payment receipts",
+      "Encumbrance certificate (recent)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state sub-registrar / registration portal",
+        "Fill property registration form",
+        "Upload documents and e-stamp / pay stamp duty (where applicable online)",
+        "Schedule appointment with sub-registrar",
+        "Attend registration with witnesses and obtain registered deed"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit Sub-Registrar Office with all documents and witnesses",
+        "Pay stamp duty & registration fees",
+        "Register sale deed and collect registered document"
+      ],
+      "locations": [
+        "Sub-Registrar Offices"
+      ]
+    },
+    "estimatedTime": "7-45 days (varies)",
+    "fees": "Stamp duty + registration fee (varies by state & property value)",
+    "variations": {
+      "Maharashtra": {
+        "links": [
+          "https://igrmaharashtra.gov.in"
+        ],
+        "notes": "Stamp duty rates follow Maharashtra Stamp Act"
+      },
+      "Karnataka": {
+        "links": [
+          "https://www.karnataka.gov.in/ekaveri"
+        ],
+        "notes": "Use e-Kaveri portal for many land services"
+      }
+    }
+  },
+  {
+    "id": "D015",
+    "name": "Encumbrance Certificate (EC)",
+    "category": "Property & Land",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Property details (Survey No / Hissa No / Document details)",
+      "Identity proof of applicant",
+      "Application form"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state registration / e-registrations portal",
+        "Search property and apply for EC",
+        "Pay fees and download EC"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit Sub-Registrar office and request EC",
+        "Provide property details and ID proof",
+        "Pay required fees and collect EC"
+      ],
+      "locations": [
+        "Sub-Registrar Offices"
+      ]
+    },
+    "estimatedTime": "Immediate to 15 days",
+    "fees": "Varies by state and period requested"
+  },
+  {
+    "id": "D016",
+    "name": "Land Records / Mutation Certificate",
+    "category": "Property & Land",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Proof of title / earlier records",
+      "Application for mutation",
+      "Identity & address proof"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state land records / BhuNaksha / Dharani / e-Dhara portals",
+        "Search survey/khata details and apply for mutation",
+        "Upload documents and track"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Apply at local revenue office / Tehsildar",
+        "Submit supporting documents",
+        "Verification and mutation entry in records"
+      ],
+      "locations": [
+        "Tehsildar Offices",
+        "Revenue Department"
+      ]
+    },
+    "estimatedTime": "15-60 days",
+    "fees": "Varies",
+    "variations": {
+      "Andhra Pradesh": {
+        "links": [
+          "https://dharani.ap.gov.in"
+        ]
+      },
+      "Karnataka": {
+        "links": [
+          "https://landrecords.karnataka.gov.in"
+        ]
+      },
+      "Maharashtra": {
+        "links": [
+          "https://igr.maharashtra.gov.in"
+        ]
+      }
+    }
+  },
+  {
+    "id": "D017",
+    "name": "Income Tax Return (ITR) Filing (Acknowledgement/Form)",
+    "category": "Tax Documents",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "PAN",
+      "Form 16 (if salaried) / Income proofs",
+      "Bank account details",
+      "Aadhaar linked (where applicable)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit incometax.gov.in portal",
+        "Login with PAN and Aadhaar (where required)",
+        "Fill ITR form and upload documents where necessary",
+        "Verify return (Aadhaar OTP / Netbanking / EVC)"
+      ],
+      "links": [
+        "https://www.incometax.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Chartered accountants or authorized representatives may file physically under limited scenarios",
+        "Keep all documents for record and verification"
+      ],
+      "locations": [
+        "Tax Consultant Offices"
+      ]
+    },
+    "estimatedTime": "Immediate (e-filing) to 60 days (processing)",
+    "fees": "Nil for filing on portal; CA fees vary"
+  },
+  {
+    "id": "D018",
+    "name": "GST Registration (for businesses)",
+    "category": "Tax Documents",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "PAN of business/entity",
+      "Proof of business address",
+      "Identity proof of promoters/partners",
+      "Bank account details"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit GST portal",
+        "Fill application (Part A/B) for registration",
+        "Upload documents and verification",
+        "Receive provisional GSTIN and later final GSTIN after verification"
+      ],
+      "links": [
+        "https://www.gst.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Assistance via GST Suvidha Providers or tax consultants",
+        "Submission of physical documents in limited cases"
+      ],
+      "locations": [
+        "GST Facilitation Centers",
+        "Tax Consultant Offices"
+      ]
+    },
+    "estimatedTime": "3-15 days",
+    "fees": "Nil on portal; professional fees if using consultant"
+  },
+  {
+    "id": "D019",
+    "name": "EPFO UAN / PF Claim Documents",
+    "category": "Employment & Social Security",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "UAN (Universal Account Number)",
+      "KYC documents (Aadhaar, PAN, bank details)",
+      "Employment details"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit EPFO member portal",
+        "Link UAN and complete KYC",
+        "File online claims (partial/full) with supporting documents",
+        "Track claim status online"
+      ],
+      "links": [
+        "https://www.epfindia.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Submit physical claim forms at EPF office (in specific cases)",
+        "Provide attested KYC documents"
+      ],
+      "locations": [
+        "EPF Regional Offices"
+      ]
+    },
+    "estimatedTime": "7-30 days",
+    "fees": "Nil (statutory)"
+  },
+  {
+    "id": "D020",
+    "name": "ESIC / Employee State Insurance Card",
+    "category": "Employment & Social Security",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Employment details of insured person",
+      "Identity & address proof",
+      "Employer registration details"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit ESIC portal",
+        "Register employer and employees",
+        "Generate ESIC card and contributions record"
+      ],
+      "links": [
+        "https://www.esic.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit ESIC regional office for assistance",
+        "Submit necessary forms and proofs"
+      ],
+      "locations": [
+        "ESIC Regional Offices"
+      ]
+    },
+    "estimatedTime": "Varies",
+    "fees": "Nil (statutory contributions)"
+  },
+  {
+    "id": "D021",
+    "name": "Scholarship / Education Scheme Documents (e.g., National Scholarship)",
+    "category": "Education & Welfare",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Marksheet and enrollment proof",
+      "Identity proof (Aadhaar/PAN)",
+      "Income certificate (for means-tested scholarships)",
+      "Bank account details"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit scholarship portal (national/state specific)",
+        "Register and fill application",
+        "Upload documents and apply before deadline",
+        "Track status and receive payment to bank account"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Submit application through institute (where applicable)",
+        "Provide attested documents"
+      ],
+      "locations": [
+        "Colleges",
+        "University Offices"
+      ]
+    },
+    "estimatedTime": "30-120 days (processing and disbursal)",
+    "fees": "Nil"
+  },
+  {
+    "id": "D022",
+    "name": "Enrollment in State Employment Exchange",
+    "category": "Employment & Welfare",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Educational certificates",
+      "ID & address proof",
+      "Passport-size photographs",
+      "Domicile certificate (often)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state employment exchange portal",
+        "Register and upload documents",
+        "Obtain enrollment ID"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit local employment exchange office",
+        "Submit documents and register"
+      ],
+      "locations": [
+        "Employment Exchange Offices"
+      ]
+    },
+    "estimatedTime": "7-30 days",
+    "fees": "Nil or nominal"
+  },
+  {
+    "id": "D023",
+    "name": "Gas Connection / LPG Subsidy (PAHAL DBTL linkage documents)",
+    "category": "Subsidies & Utilities",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Proof of identity and address",
+      "Bank account details for DBT (if subsidy)",
+      "LPG consumer details (existing connections)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit respective LPG distributor portal or NPCI/PAHAL linkage portals",
+        "Register bank details and Aadhaar linkage for DBT",
+        "Apply for new connection via distributor website/office"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit LPG distributor office to apply for new connection",
+        "Submit KYC documents and pay security deposit"
+      ],
+      "locations": [
+        "LPG Distributor Outlets"
+      ]
+    },
+    "estimatedTime": "7-30 days",
+    "fees": "Varies by provider and state policies"
+  },
+  {
+    "id": "D024",
+    "name": "Pension Scheme Enrollment / Pension Documents (e.g., National Pension Scheme / Old Age)",
+    "category": "Social Security",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Identity proof",
+      "Bank details",
+      "Pension scheme specific forms and KYC",
+      "Proof of eligibility (age/residence/employment history)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit respective pension scheme portal (NPS / State Pension portals)",
+        "Register, fill details and upload KYC",
+        "Submit and track status"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit designated pension office or bank branch",
+        "Submit physical forms and KYC"
+      ],
+      "locations": [
+        "Pension Offices",
+        "Bank Branches"
+      ]
+    },
+    "estimatedTime": "30-90 days",
+    "fees": "Nil or nominal service fees"
+  },
+  {
+    "id": "D025",
+    "name": "Police Clearance Certificate (PCC) / Character Certificate",
+    "category": "Legal & Travel",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Proof of identity and address",
+      "Application form",
+      "Fingerprints / police verification inputs (as required)",
+      "Passport details (where required)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit local police portal or Passport Seva portal (for PCC for passport)",
+        "Fill application and upload identity documents",
+        "Provide references and attend police verification if required"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Apply at local police station / Superintendent of Police office",
+        "Submit documents and provide verification details",
+        "Collect PCC after verification"
+      ],
+      "locations": [
+        "District Police Offices"
+      ]
+    },
+    "estimatedTime": "7-60 days (depending on verification)",
+    "fees": "Varies (often nominal)"
+  },
+  {
+    "id": "D026",
+    "name": "Health Scheme / Medical Insurance Card (Ayushman Bharat / State Schemes)",
+    "category": "Health & Welfare",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Aadhaar or identity proof",
+      "Proof of residence",
+      "Income proof (for certain schemes)",
+      "Family details"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit Ayushman Bharat portal or respective state health scheme portal",
+        "Search eligibility and register by uploading required documents",
+        "Receive scheme ID / card details"
+      ],
+      "links": [
+        "https://healthids.gov.in",
+        "https://pmjay.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit nearest public health center / CSC",
+        "Submit documents and apply for scheme enrollment",
+        "Collect scheme card / ID"
+      ],
+      "locations": [
+        "Public Health Centers",
+        "CSC Centers",
+        "District Hospitals"
+      ]
+    },
+    "estimatedTime": "Immediate to 30 days",
+    "fees": "Typically free (beneficiary schemes)",
+    "variations": {
+      "Maharashtra": {
+        "notes": "Maharashtra specific schemes like Mahatma Jyotiba Phule Jan Arogya Yojana might have separate portals."
+      },
+      "Tamil Nadu": {
+        "notes": "TN state schemes operate alongside central schemes; check state portal for details."
+      }
+    }
+  },
+  {
+    "id": "D027",
+    "name": "Birth / School Leaving / Transfer Certificate (Student Documents)",
+    "category": "Education & Identity",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Student details and enrollment proof",
+      "Parents' identity proof",
+      "School/college records"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Apply through school's administrative portal (if available)",
+        "Provide required proofs and pay nominal fees",
+        "Download / collect certificate"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit school/college admin office",
+        "Submit application for TC/bonafide/transfer certificate",
+        "Collect issued certificate"
+      ],
+      "locations": [
+        "Schools",
+        "College Offices"
+      ]
+    },
+    "estimatedTime": "1-30 days",
+    "fees": "Nominal (if applicable)"
+  },
+  {
+    "id": "D028",
+    "name": "Marriage Registration under Special Marriage Act / Hindu Marriage Act",
+    "category": "Civil Registration",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Application under relevant act (Form varies)",
+      "Proof of age and identity of both parties",
+      "Residence proof",
+      "Affidavit and witnesses (3) as required under Special Marriage Act"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state marriage registration portal or district portal",
+        "Submit forms and supporting documents online (where supported)",
+        "Pay fees and schedule verification"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit Marriage Registrar / Sub-Registrar office with documents and witnesses",
+        "Submit application and affidavit as required",
+        "After verification, collect marriage certificate"
+      ],
+      "locations": [
+        "Sub-Registrar Offices",
+        "Municipal Offices"
+      ]
+    },
+    "estimatedTime": "30-90 days (varies)",
+    "fees": "Varies by state"
+  },
+  {
+    "id": "D029",
+    "name": "GSTIN / GST Registration Certificate (Business)",
+    "category": "Tax Documents",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "PAN of the entity",
+      "Proof of business address",
+      "Identity and address proof of promoters/partners",
+      "Bank account details"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit GST portal",
+        "Fill registration details and upload documents",
+        "Verify and obtain GSTIN",
+        "File periodic returns online"
+      ],
+      "links": [
+        "https://www.gst.gov.in"
+      ]
+    },
+    "offlineProcess": {
+      "steps": [
+        "Consult GST Suvidha Provider or tax consultant for assistance",
+        "Physical submission in rare cases"
+      ],
+      "locations": [
+        "Tax Consultant Offices",
+        "GST Facilitation Centers"
+      ]
+    },
+    "estimatedTime": "3-15 days",
+    "fees": "Nil on portal; professional fees if applicable"
+  },
+  {
+    "id": "D030",
+    "name": "Fire NOC / Building Plan Approval (Municipal)",
+    "category": "Municipal & Construction",
+    "state": "All States",
+    "complexity": "hard",
+    "requirements": [
+      "Building plan / architectural drawings",
+      "Ownership / title documents",
+      "Safety compliance certificates",
+      "Structural stability certificate (where required)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit municipal corporation / local body e-portal",
+        "Submit building plan documents and NOC applications",
+        "Pay fees and track application",
+        "Schedule inspections"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Submit plans at municipal office / Town Planning department",
+        "Undergo inspections and compliance checks",
+        "Collect approved plan / NOC"
+      ],
+      "locations": [
+        "Municipal Corporation",
+        "Town Planning Office"
+      ]
+    },
+    "estimatedTime": "30-180 days (varies greatly)",
+    "fees": "Varies by project size and municipality"
+  },
+  {
+    "id": "D031",
+    "name": "Professional Certificate / Trade License (Shops & Establishment)",
+    "category": "Business & Licensing",
+    "state": "All States",
+    "complexity": "medium",
+    "requirements": [
+      "Application form for trade license / trade certificate",
+      "Proof of business address",
+      "Identity proof of proprietor/partners",
+      "Tax / property receipts"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit municipal corporation trade license portal",
+        "Fill application and upload documents",
+        "Pay fees, schedule inspection if required",
+        "Obtain license"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit local municipal office and submit license application",
+        "Undergo inspection and pay fees",
+        "Collect license"
+      ],
+      "locations": [
+        "Municipal Corporation Offices"
+      ]
+    },
+    "estimatedTime": "7-60 days",
+    "fees": "Varies by local rules"
+  },
+  {
+    "id": "D032",
+    "name": "Police FIR Copy / Complaint Registration",
+    "category": "Legal & Police",
+    "state": "All States",
+    "complexity": "easy",
+    "requirements": [
+      "Details of incident",
+      "Identity proof of complainant",
+      "Supporting evidence (if any)"
+    ],
+    "onlineProcess": {
+      "steps": [
+        "Visit state police e-FIR portal (where available)",
+        "Fill complaint details and submit online",
+        "Obtain e-FIR number and track status"
+      ],
+      "links": []
+    },
+    "offlineProcess": {
+      "steps": [
+        "Visit nearest police station and lodge complaint",
+        "Police registers FIR and provides copy/acknowledgment",
+        "Follow up with investigating officer"
+      ],
+      "locations": [
+        "Local Police Stations"
+      ]
+    },
+    "estimatedTime": "Immediate registration; investigation timelines vary",
+    "fees": "Free"
+  }
+]
